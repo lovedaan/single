@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+    -webkit-text-size--adjust:100%;
+    -ms-text-size--adjust:100%;
+    text-size--adjust:100%;
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+body{
+	 font-family: 'STHeiti','Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,textarea,p,th,td,input,select,textarea,button {
+	margin:0;
+	padding:0
+}
+body{
+    font-family: Tahoma,Arial,Roboto,"Droid Sans","微软雅黑";
+    font-size:14px;
+}
+input{
+    -webkit-appearance:none;
+    resize: none;
+	border:none;
+}
+em,i{ font-style: normal;}
+strong{ font-weight: normal;}
+a{
+    text-decoration:none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover{
+    text-decoration:none;
+}
+button{
+    outline: none;
+}
+img{
+    border:none;
+    vertical-align:top;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: :0;
+}
+ul,ol{
+    list-style: none;
+}
+
+.clearfix:before { content: ""; display: table; clear: both;}
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+ /*连续英文数字换行*/
+ .wordwrap{
+    word-break: break-all;
+    word-wrap: break-word;
+ }
+ /*单行文本出现显示省略点*/
+ .omg{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+ }
+
+
+
+

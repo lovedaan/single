@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>模块化开发</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" inline>
+    <script type="text/javascript" src="lib/require/require.js"></script>
+</head>
+<body ms-controller="mainContorller">
+    <div id="main">
+        <div id="loading">
+            <div></div>
+            <div></div>
+            <span></span>
+        </div>
+        <div id="header">
+            <div id="header-inner">
+                <div class="logo">
+                    <h1>
+                        <a href="javascript:;"><img src="images/logo.png" alt=""></a>
+                    </h1>
+                </div>
+                <ul id="nav" class="clearfix">
+                    <li>
+                        <a href="javascript:;">
+                            <div class="up"><img src="images/home_gruen.png" alt=""></div>
+                            <div>
+                                <img src="images/home.png" alt="" />
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div class="up">Course</div>
+                            <div>Course</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div class="up">Works</div>
+                            <div>Works</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div class="up">About</div>
+                            <div>About</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div class="up">Team</div>
+                            <div>Team</div>
+                        </a>
+                    </li>
+                </ul>
+                <div id="arrow"></div>
+            </div>
+        </div>
+        <div id="main-content">
+            <div id="slide-menu">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="con-list">
+                <li id="home" class="page">
+                    <div class="pageCon">
+                        <div id="banner">
+                            <ul class="imgList">
+                                <li class="active"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <div class="circleList">
+                                <span class="active"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="course" class="page">
+                    <div class="pageCon">
+                        <div class="course_con clearfix">
+                            <div class="left-text">
+                                <div class="left-title">
+                                    <p>EINIGE</p>
+                                    <p>UNSERER</p>
+                                    <p>KUNDEN</p>
+                                </div>
+                                <div class="left-context">
+                                    <p>Das Kundenvertrauen in unsere Kompetenz ist die notwendige Basis einer erfolgreichen Zusammenarbeit, gleichzeitig aber auch das größte Lob, das man uns entgegenbringen kann. </p>
+                                    <p>Diese und viele weitere große und kleine Kunden vertrauen uns seit Jahren, was uns stolz macht, und dafür sagen wir an dieser Stelle einfach mal.</p>
+                                </div>
+                            </div>
+                            <div class="right-list clearfix">
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="just-item">
+                                        <img src="images/binoli.png" alt="" />
+                                    </div>
+                                    <div class="back-item">我是文字</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plane1"></div>
+                        <div class="plane2"></div>
+                        <div class="plane3"></div>
+                    </div>
+                </li>
+                <li id="wokrs" class="page">
+                    <div class="pageCon">
+                        <div class="wokrs-con">
+                            <div class="wokrs-text">
+                                <p>EINBLICK</p>
+                                <p>ERKENNTNIS</p>
+                                <p>ERGEBNIS</p>
+                            </div>
+                            <div class="robot">
+                                <img src="images/robot.png" alt="" />
+                            </div>
+                            <div class="wokrs-list clearfix">
+                                <div class="list-img" ms-repeat-it="wokrsList">
+                                    <img ms-attr-src="it.src" alt="" />
+                                    <div class="dark">
+                                        <span>{{$index+1}}. {{it.text}}</span>
+                                        <i class="zoom_icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pencel1"></div>
+                        <div class="pencel2"></div>
+                        <div class="pencel3"></div>
+                    </div>
+                </li>
+                <li id="about" class="page">
+                    <div class="pageCon">
+                        <div class="left-text">
+                            <div class="left-title">
+                                <p>DIE</p>
+                                <p>SPEZIELLE</p>
+                                <p>VIELFALT</p>
+                            </div>
+                            <div class="left-context">
+                                <p>Der bunte Medienmix ist die Faszination die uns antreibt und das, was man an uns schätzt. Von A bis Z und von vorne bis hinten nehmen wir Ihr Projekt unter unsere Fittiche und lassen es zu etwas Großartigem heranwachsen.</p>
+                            </div>
+                        </div>
+                        <div class="right-list clearfix">
+                            <div class="item-top item">
+                                <ul class="item-top-img clearfix">
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                </ul>
+                                <img src="images/about2.jpg" alt="" />
+                            </div>
+                            <div class="item-bt item">
+                                <ul class="item-top-img clearfix">
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                </ul>
+                                <img src="images/about4.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="team" class="page">
+                    <div class="pageCon">
+                        <div class="textWrap clearfix">
+                            <div class="left-text">
+                                <p>WIR SIND</p>
+                                <p>VOXELAIR</p>
+                            </div>
+                            <div class="right-text">
+                                <p>Wir sind seit 2002 eine Full-Service-Werbeagentur mit Stammsitz in Heimsheim, zwischen Stuttgart und Karlsruhe. </p>
+                                <p>Über 60 Jahre Erfahrung vereinen das gesamte VoxelAir-Team. Dabei hat jedes Voxel neben professionellem Allroundwissen auch sein ganz spezielles Gebiet, um selbst die individuellsten Kundenwünsche schnell und kompetent umzusetzen.</p>
+                            </div>
+                        </div>
+                        <ul id="imgCanlist">
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js" inline></script>
+</body>
+</html>
